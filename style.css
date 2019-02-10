@@ -15,30 +15,7 @@ a {
  
 		a.nav-link:hover { background-color:#E5E7E9; }
  
-	a.download {
-		text-decoration: none;
-		font-family:'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
-		color: #fff;
-		background: #333333;
-		padding: 10px 10px;
-		border-radius: 3px;
-		border-style: solid;
-		border-color: white;
-		display: block;
-		width: 200px;
-		height: 75px;
-		margin: 100px auto 0 auto;
-		text-align: center;
-		vertical-align: middle;
-		line-height: 50px;
-		z-index: 100;
-		transition: opacity .8s ease; }
- 
-		a.download:hover {
-			text-decoration: none;
-			color: #333333;
-			background-color:white; }
- 
+	
 	a.navbar-brand {
 		margin-top:5px;
 		font-size: 140%;
@@ -50,7 +27,7 @@ a {
 			-webkit-stroke-width: 5.3px;
 			-webkit-stroke-color: #FFFFFF;
 			-webkit-fill-color: #FFFFFF;
-			text-shadow: 1px 0px 20px yellow; }
+			text-shadow: 1px 0px 20px #800080; }
  
 	a:hover {
 		color:white;
@@ -58,18 +35,34 @@ a {
 		cursor:pointer; }
  
 .navbar{
-    background-color: #600000;
+   
+   
+    box-shadow: none;
     font-weight: bolder;
     color: aliceblue;
+    padding-bottom: 15px;
 }
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(back1.png)
-      ,url(back2.png);
-  background-size: fill;
+  background-image: url(back2.png);
+  background-size: fit;
+
+  
   background-position: center;
-  background-repeat: round;
+  background-repeat: no-repeat;
+  
+}
+a.hover{
+    background-color: white;
+}
+
+.blurb{
+    padding: 25px;
+    border-style: solid;
+    border-color: indigo;
+    
+    
 }
 body {
  
@@ -113,9 +106,13 @@ h1{
     
     width: 300px;
     height:500px;
-    border-color:#E2AAB2;
-    background-color: #E2AAB2;
-    border-style: groove;
+    border-color:#4e4376;
+   
+    border-style: solid;
+}
+
+#About{
+    background-image: none;
 }
 .tooltip .tooltiptext {
   visibility: hidden;
