@@ -5,14 +5,69 @@
     
     
 }
-
-
+a {
+	text-decoration: none;
+	color:#DC1F0C; }
+ 
+	a.nav-link {
+		
+		color:black; }
+ 
+		a.nav-link:hover { background-color:#E5E7E9; }
+ 
+	a.download {
+		text-decoration: none;
+		font-family:'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+		color: #fff;
+		background: #333333;
+		padding: 10px 10px;
+		border-radius: 3px;
+		border-style: solid;
+		border-color: white;
+		display: block;
+		width: 200px;
+		height: 75px;
+		margin: 100px auto 0 auto;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 50px;
+		z-index: 100;
+		transition: opacity .8s ease; }
+ 
+		a.download:hover {
+			text-decoration: none;
+			color: #333333;
+			background-color:white; }
+ 
+	a.navbar-brand {
+		margin-top:5px;
+		font-size: 140%;
+		text-shadow: none;
+		font-weight: 500;
+		color: #F4D03F; }
+ 
+		a.navbar-brand:hover {
+			-webkit-stroke-width: 5.3px;
+			-webkit-stroke-color: #FFFFFF;
+			-webkit-fill-color: #FFFFFF;
+			text-shadow: 1px 0px 20px yellow; }
+ 
+	a:hover {
+		color:white;
+		text-decoration:none;
+		cursor:pointer; }
+ 
+.navbar{
+    background-color: #600000;
+    font-weight: bolder;
+    color: aliceblue;
+}
 .masthead {
   height: 100vh;
   min-height: 500px;
   background-image: url(back1.png)
       ,url(back2.png);
-  background-size: cover;
+  background-size: fill;
   background-position: center;
   background-repeat: round;
 }
@@ -46,12 +101,13 @@ h1{
     padding-right: 240px;
     align-content: center;
     vertical-align: middle;
-    color: #E2AAB2;
+    color: indigo;
 }
 .tooltip {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  text-shadow: 50%;
 }
 #box{
     
