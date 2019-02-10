@@ -1,5 +1,5 @@
 # Reheat
-Heat map of the United States that determines the population of men vs. women in each state!
+Heat map of the United States that shows the relative populations of men vs women in the United States. 
 
 
 ## Demo
