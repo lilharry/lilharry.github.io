@@ -21,7 +21,7 @@ a {
 		font-size: 140%;
 		text-shadow: none;
 		font-weight: 500;
-		color: #F4D03F; }
+		 }
  
 		a.navbar-brand:hover {
 			-webkit-stroke-width: 5.3px;
@@ -45,7 +45,7 @@ a {
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(back2.png);
+  /*background-image: url(back2.png);*/
   background-size: fit;
 
   
@@ -107,10 +107,20 @@ h1{
     width: 300px;
     height:500px;
     border-color:#4e4376;
-   
-    border-style: solid;
+    position: relative;
+    
+    
 }
-
+/*
+#box p{
+   margin-left: auto;
+   margin-right: auto;
+   position: absolute;               
+   width:90%;
+   top: 50%;                         
+   transform: translate(0, -50%) }   
+}
+*/
 #About{
     background-image: none;
 }
@@ -133,4 +143,9 @@ h1{
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+#hoverName{
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-weight: bold;
 }

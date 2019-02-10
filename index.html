@@ -33,7 +33,7 @@
 
   <!-- Navigation -->
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-inverted"  style ="background-color:white"  id ="mainNav">   
+<nav class="navbar bg-light fixed-top navbar-expand-lg navbar-inverted"  style ="background-color:white"  id ="mainNav">   
   <div class="container">
       
        <a class="navbar-brand" href="#">Hope Somewhere</a>
@@ -45,12 +45,12 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#Home">Home
+          <a class="nav-link" href="#Home">About
                 <span class="sr-only">(current)</span>
               </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#About">About</a>
+          <a class="nav-link" href="#About">Heatmap</a>
         </li>
         
       </ul>
@@ -79,17 +79,35 @@
      </section>
 <section id = "About">
 <header class="masthead">
+
   <div class="container h-100">
     <div class="row h-100 align-items-center">
-        <div class="col 6 text-center"> 
-            <h1> Legend </h1>
-            <div id="box">  </div>
+        <div class="col-4 text-center"> 
+            
+            <div id="box">  
+
+              <div class="container">
+              <button class="btn btn-light" id="gender">Gender Data</button>
+              <button class="btn btn-light" id="pop">Population Data</button>
+              </div>
+<br><br><br><br><br>
+              <div class="container">
+              <p id="hoverName"> 
+              <p id="placeholder">Hover over a state to learn more about it!
+              <p id="hoverMale"> 
+              <p id="hoverFemale">
+              <p id="hoverRatio">
+              </div>
+
+
+            </div>  
+            
             
         </div>
-      <div class="col-6 text-center">
+      <div class="col-8 text-center">
         <div id="map" class = "center" 
-             style=" width: 750px; 
-                         height: 750px; 
+             style=" width: 900px; 
+                         height: 900px; 
                          padding-top: 200px;
                         padding-right: 150px;
                          vertical-align: middle;
@@ -99,13 +117,21 @@
          >
                          
     
-    </div>
+        </div>
     
       </div>
     </div>
+
+
+
+  
   </div>
+
+
+
 </header>
-     </section>
+</section>
+
     
     
 
