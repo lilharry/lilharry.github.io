@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(back1.png)
+      ,url(back2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: round;
+}
+body {
+ 
+  -webkit-background-size: 50%;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.navbar-brand{
+    vertical-align: middle;
+}
+#header{
+    height: 100px;
+    width:auto;
+    vertical-align: middle;
+    
+    text-align: center;
+    font-family: inherit;
+    color: black;
+}
+h1{
+    padding-right: 240px;
+    align-content: center;
+    vertical-align: middle;
+    color: #E2AAB2;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+#box{
+    
+    width: 300px;
+    height:500px;
+    border-color:#E2AAB2;
+    background-color: #E2AAB2;
+    border-style: groove;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
