@@ -136,4 +136,22 @@ $(document).ready(function() {
     	showLabels: false,
     	stateSpecificStyles: stateStylesObj
     });
-  });
+
+
+	$("#navbarResponsive a").click(function(){
+		if (this.hash !== "") {
+			event.preventDefault();
+
+			var hash = this.hash;
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 800, function(){
+				window.location.hash = hash;
+			});
+}  // End if
+	});
+
+
+
+});
+
